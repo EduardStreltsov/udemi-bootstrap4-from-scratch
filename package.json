@@ -1,0 +1,23 @@
+{
+  "name": "udemi-bootstrap4-from-scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardStreltsov/udemi-bootstrap4-from-scratch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduardStreltsov/udemi-bootstrap4-from-scratch/issues"
+  },
+  "homepage": "https://github.com/EduardStreltsov/udemi-bootstrap4-from-scratch#readme"
+}
