@@ -30,12 +30,13 @@
         integrity = "sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin = "anonymous">
   <link rel = "stylesheet"
-        href = "css/style.css">
+        href = "styles.css">
   <title>Bootstrap Theme</title>
 </head>
 <body>
   
-  <nav class = "navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <nav id = "main-nav"
+       class = "navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
     <div class = "container">
       <a href = "index.html"
          class = "navbar-brand">LoopLAB</a>
@@ -48,19 +49,19 @@
            id = "navbarCollapse">
         <ul class = "navbar-nav ml-auto">
           <li class = "nav-item">
-            <a href = "#home"
+            <a href = "#home-section"
                class = "nav-link">Home</a>
           </li>
           <li class = "nav-item">
-            <a href = "#explore-head-section"
+            <a href = "#explore-head"
                class = "nav-link">Explore</a>
           </li>
           <li class = "nav-item">
-            <a href = "#create-head-section"
+            <a href = "#create-head"
                class = "nav-link">Create</a>
           </li>
           <li class = "nav-item">
-            <a href = "#share-head-section"
+            <a href = "#share-head"
                class = "nav-link">Share</a>
           </li>
         
@@ -135,7 +136,9 @@
                            class = "form-control form-control-lg"
                            placeholder = "Confirm password  ">
                   </div>
-                  <input type = "submit" value="Submit" class="btn btn-outline-light btn-block">
+                  <input type = "submit"
+                         value = "Submit"
+                         class = "btn btn-outline-light btn-block">
                 </form>
               </div>
             </div>
@@ -146,6 +149,113 @@
     </div>
   </header>
   
+  <!--EXPLORE HEAD-->
+  <section id = "explore-head">
+    <div class = "container">
+      <div class = "row">
+        <div class = "col text-center py-5">
+          <h1 class = "display-4">Explore</h1>
+          <p class = "lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate debitis dolor dolores
+                            esse fuga magnam, omnis optio quisquam quos reprehenderit, sapiente sunt ut. Aliquid,
+                            labore.</p>
+          <a href = "#"
+             class = "btn btn-outline-secondary">Find Out More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!--EXPLORE SECTION-->
+  <section id = "explore-section"
+           class = "bg-light text-muted py-5">
+    <div class = "container">
+      <div class = "row">
+        <div class = "col-md-6">
+          <img src = "img/explore-section1.jpg"
+               alt = ""
+               class = "img-fluid mb-3 rounded-circle">
+        </div>
+        <div class = "col-md-6">
+          <h3>Explore & Connect</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dicta maiores repellat repellendus voluptate?
+             Beatae distinctio dolorem error itaque omnis porro qui vero!</p>
+          <div class = "d-flex">
+            <div class = "p-4 align-self-start">
+              <i class = "fas fa-check fa-2x"></i>
+            </div>
+            <div class = "p-4 align-self-end">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad consequatur, dignissimos dolorum excepturi
+              expedita maxime mollitia neque ut vero?
+            </div>
+          </div>
+          <div class = "d-flex">
+            <div class = "p-4 align-self-start">
+              <i class = "fas fa-check fa-2x"></i>
+            </div>
+            <div class = "p-4 align-self-end">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur esse impedit, ipsa quos
+              ratione.
+            </div>
+          </div>
+          <div class = "d-flex"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!--CREATE HEAD-->
+  <section id = "create-head" class="bg-primary">
+    <div class = "container">
+      <div class = "row">
+        <div class = "col text-center py-5">
+          <h1 class = "display-4">Create</h1>
+          <p class = "lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate debitis dolor dolores
+                            esse fuga magnam, omnis optio quisquam quos reprehenderit, sapiente sunt ut. Aliquid,
+                            labore.</p>
+          <a href = "#"
+             class = "btn btn-outline-light">Find Out More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!--CREATE SECTION-->
+  <section id = "create-section"
+           class = "bg-dark text-white py-5">
+    <div class = "container">
+      <div class = "row">
+        <div class = "col-md-6 order-2">
+          <img src = "img/create-section1.jpg"
+               alt = ""
+               class = "img-fluid mb-3 rounded-circle">
+        </div>
+        <div class = "col-md-6 order-1">
+          <h3>Create Your Passion </h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dicta maiores repellat repellendus voluptate?
+             Beatae distinctio dolorem error itaque omnis porro qui vero!</p>
+          <div class = "d-flex">
+            <div class = "p-4 align-self-start">
+              <i class = "fas fa-check fa-2x"></i>
+            </div>
+            <div class = "p-4 align-self-end">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad consequatur, dignissimos dolorum excepturi
+              expedita maxime mollitia neque ut vero?
+            </div>
+          </div>
+          <div class = "d-flex">
+            <div class = "p-4 align-self-start">
+              <i class = "fas fa-check fa-2x"></i>
+            </div>
+            <div class = "p-4 align-self-end">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur esse impedit, ipsa quos
+              ratione.
+            </div>
+          </div>
+          <div class = "d-flex"></div>
+        </div>
+      </div>
+    </div>
+  </section>
   
   <script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
           integrity = "sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
@@ -159,6 +269,31 @@
   <script>
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
+    
+    $('body').scrollspy({target: '#main-nav'});
+    
+    // smooth scrolling
+    $('#main-nav a').on('click', function (e) {
+      // check for a hash value
+      if (this.hash !== '') {
+        // prevent default behavior
+        e.preventDefault();
+        
+        // store hash
+        const hash = this.hash;
+        
+        // animate smooth scroll (we use full version of jquery)
+        $('html, body').animate(
+          {
+            scrollTop: $(hash).offset().top
+          },
+          900,
+          function () {
+            // Add hash to URL after scroll
+            window.location.hash = hash;
+          });
+      }
+    });
   </script>
 
 </body>
