@@ -22,6 +22,22 @@ body {
 	border-bottom: 1px #ddd solid;
 }
 
+#authors {
+	img {
+		margin-top: -50px;
+	}
+	
+	.card:hover {
+		background: $primary;
+		color: #ffffff;
+	}
+	
+	.fab {
+		color: #ffffff;
+	}
+
+}
+
 #showcase {
 	position: relative;
 	background: url('../img/mountains.jpg');
@@ -37,7 +53,6 @@ body {
 	}
 }
 
-
 @media(max-width: 768px) {
 	
 	#showcase {
@@ -46,7 +61,7 @@ body {
 		h1 {
 			font-size: 4rem;
 		}
-  	}
+	}
 	
 	.mb-resp {
 		margin-bottom: 1rem;
